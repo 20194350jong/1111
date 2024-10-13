@@ -1,0 +1,5 @@
+train: /content/yolov5_project/dataset/images/train  # 학습 이미지 경로
+val: /content/yolov5_project/dataset/images/val  # 검증 이미지 경로
+
+nc: 2  # 클래스 수 (예: 토마토 열매와 줄기)
+names: ['fruit', 'stem']  # 클래스 이름
