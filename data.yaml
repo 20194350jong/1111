@@ -1,0 +1,7 @@
+# data.yaml
+
+train: ./data/images/train  # 훈련용 이미지 경로
+val: ./data/images/val      # 검증용 이미지 경로
+
+nc: 2  # 클래스 개수 (토마토 열매와 줄기)
+names: ['tomato', 'stem']  # 클래스 이름
